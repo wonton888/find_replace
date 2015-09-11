@@ -1,15 +1,15 @@
-Count Up To
+find_replace
 ==========
 
-By Ashlin Aronin, Austin Blanchard and Adam Won, 9-Sep-2015
+By Adam Won, 11-Sep-2015
 
-An app that counts up to a number by a given multiple.
+An app that allows the user to input a string, a word that they want to find, and add a replacement word for the found word.  The expected output is a new string with the replacement word.
 
 Setup
 ----------
 * Clone repository:
 ```console
-$ git clone https://github.com/ashlinaronin/count-up.git
+$ git clone https://github.com/wonton888/find_replace.git
 ```
 * Open HTML file in browser
 * Enjoy!
@@ -20,4 +20,4 @@ JavaScript, Mocha, Chai, HTML, Bootstrap, CSS
 
 License
 ----------
-MIT License, Copyright (c) 2015 Ashlin Aronin, Austin Blanchard and Adam Won
+MIT License, Copyright (c) 2015 Adam Won
