@@ -2,7 +2,9 @@
 
 var find_replace = function(string, findWord, replace){
   return string.toLowerCase().replace(new RegExp("(" +findWord+ ")", 'gi'), replace);
-};$(document).ready(function(){
+};
+
+$(document).ready(function(){
   $('form#find_replace').submit(function(event){
     var string = $('input#string').val();
     var findWord = $('input#findWord').val();
