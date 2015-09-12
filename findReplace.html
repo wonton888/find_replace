@@ -1,0 +1,26 @@
+
+<html>
+  <head>
+    <title>find_replace</title>
+  </head>
+  <body>
+    <h1>Replace a word in a phrase with a new word!</h1>
+    <form id="find_replace">
+        <div class="form-group">
+            <label for="string" class="hidden"> Enter a phrase:</label>
+            <input class="form-control" type="text" id="string">
+            <br>
+            <br>
+            <label for="findWord" class="hidden"> Enter a word that you want to find in the phrase:</label>
+            <input class="form-control" type="text" id="findWord">
+            <br>
+            <br>
+            <label for="replace" class="hidden"> Enter a replacement word that you want in the new phrase output:</label>
+            <input class="form-control" type="text" id="replace">
+        </div>
+        <button type="submit" name="button">Go!</button>
+    </form>
+
+    <div id="result">Here is your output:<span class="output"></span></div>
+  </body>
+</html>
