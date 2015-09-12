@@ -5,6 +5,8 @@ By Adam Won, 11-Sep-2015
 
 An app that allows the user to input a string, a word that they want to find, and add a replacement word for the found word.  The expected output is a new string with the replacement word.
 
+//started project late in the day, around 12pm with a long lunch.//
+
 Setup
 ----------
 * Clone repository:

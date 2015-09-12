@@ -1,9 +1,13 @@
 
 <html>
   <head>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>find_replace</title>
   </head>
   <body>
+    <div class="container">
     <h1>Replace a word in a phrase with a new word!</h1>
     <form id="find_replace">
         <div class="form-group">
@@ -21,6 +25,6 @@
         <button type="submit" name="button">Go!</button>
     </form>
 
-    <div id="result">Here is your output:<span class="output"></span></div>
+    <div><ul id="result"></ul></div>
   </body>
 </html>
