@@ -14,7 +14,7 @@ describe("findReplace", function(){
   it ("returns a string of words with two instances of the replacement word", function(){
     expect(find_replace("hello world world", "world", "food")).to.equal("hello food food");
   });
-  it ("returns a single capitalized word inputed with replacement word", function(){
-    expect(find_replace("Hello teacher", "Hello", "Bad")).to.equal("Bad teacher");
+  it ("finds matches regardless of capitalization", function(){
+    expect(find_replace("Hello teacher", "hello", "Bad")).to.equal("Bad teacher");
   });
 });
